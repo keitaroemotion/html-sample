@@ -1,0 +1,33 @@
+body {
+  background-color: rgba(280,200,100,1)  
+}
+
+h1 {
+  color:       white;
+  background-color: blue 
+}
+
+p {
+  font-family: courier;
+  border:      1px solid powderblue;
+  padding: 30px;
+}
+
+#p01 {
+  color: blue
+}
+
+p.error {
+  color: red
+}
+
+.min {
+  font-family: courier;
+  border:      1px solid red;
+  margin:      20px;
+}
+
+.moo {
+  background-color: violet
+}
+
