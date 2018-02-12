@@ -1,10 +1,77 @@
+/*
+ * property:value
+ * 
+ * if property starts from #,
+ *    it is "id Selector"
+ * else, there is
+ *   class selector,
+ */
+
 body {
   background-color: rgba(280,200,100,1)  
 }
 
+.outline {
+  border-style:  solid;
+  border-color:  red;
+  outline-style: double; 
+  outline-width: thick;
+  outline-color: green;
+  text-align:    justify;
+}
+
+.deco {
+  text-decoration: overline;
+}
+
+.deco2 {
+  text-decoration: line-through;
+}
+
+.deco3 {
+  text-decoration: underline;
+}
+
+.dotted {
+  text-align:       center;
+  border-style:     dotted;
+  background-color: lightgrey;
+  border-radius:    14px;
+}
+
+.dashed{
+  border-top-style: dotted;
+  border-right-style: dashed;
+  border-bottom-style: double;
+  border-left-style: outset;
+}
+
+.solid{
+  border-style:  solid;
+  border-color:  red green yellow blue;
+  border-width:  10px;
+  border-radius: 14px;
+  height: 200px; 
+  width:  200px;
+  color:  white;
+  background-color: black;
+  /*
+   * margin is the margin of the box itself
+   * within the page
+   */
+  margin:  10px 20px 30px 10px;
+  padding: 25px 25px 25px 25px
+}
+
+.image {
+  height:            300px;
+  color:             white;
+  background: url("https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Moomin_characters.png/220px-Moomin_characters.png") repeat left top fixed;
+}
+
 h1 {
-  color:       white;
-  background-color: blue 
+  color:            white;
+  background-color: blue;
 }
 
 p {
